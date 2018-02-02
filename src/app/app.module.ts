@@ -8,9 +8,13 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { environment } from './../environments/environment';
 
+//Bootstrap 4 JQuery and Popper
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 import { AppComponent } from './app.component';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap/modal/modal';
 
 
 @NgModule({
@@ -22,7 +26,8 @@ import { AppNavbarComponent } from './app-navbar/app-navbar.component';
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
