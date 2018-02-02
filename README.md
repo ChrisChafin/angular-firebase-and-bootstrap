@@ -1,5 +1,7 @@
 # AngularAndFirebase
 
+Angular5 app with a Firebase API. Utilizing Bootstrap4
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
 
 ## Development server
