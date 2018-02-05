@@ -15,12 +15,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap/modal/modal';
+import { CoursesListComponent } from './courses-list/courses-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppNavbarComponent
+    AppNavbarComponent,
+    CoursesListComponent
   ],
   imports: [
     BrowserModule,
