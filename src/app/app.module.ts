@@ -16,13 +16,15 @@ import { AppComponent } from './app.component';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap/modal/modal';
 import { CoursesListComponent } from './courses-list/courses-list.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AppNavbarComponent,
-    CoursesListComponent
+    CoursesListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
