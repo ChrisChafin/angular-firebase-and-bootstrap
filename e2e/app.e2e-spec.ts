@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('angular-and-firebase App', () => {
+describe('my-sassy-app App', () => {
   let page: AppPage;
 
   beforeEach(() => {

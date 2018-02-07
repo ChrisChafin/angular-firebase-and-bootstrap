@@ -6,7 +6,7 @@ import { Observable } from 'rxjs/Observable';
 @Component({
   selector: 'courses-list',
   templateUrl: './courses-list.component.html',
-  styleUrls: ['./courses-list.component.css']
+  styleUrls: ['./courses-list.component.scss']
 })
 export class CoursesListComponent implements OnInit {
   coursesObservable: Observable<any[]>;
@@ -18,3 +18,4 @@ export class CoursesListComponent implements OnInit {
     return this.db.list(listPath).valueChanges();
   }
 }
+
